@@ -1,0 +1,194 @@
+body {
+	margin: 0 auto;
+	color: #000;
+	width: 770px;
+	background: #fff;
+	font: 12px/14px verdana, arial, helvetica, sans-serif;
+}
+/* General reset */
+img {
+	border: none;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+}
+/* General settings */
+/* HEADER STAR */
+.header{
+	height: 185px;
+	background: url('../img/header-bg.png') no-repeat;
+	padding-bottom: 11px;
+	position: relative;
+}
+.header-nav{
+	float: right;
+	margin-top: 6px;
+}
+.header-nav li{
+	float: left;
+	margin: 0 22px;
+}
+.header-nav li a{
+	font-weight: bold;
+	font-size: 10px;
+	color: #333;
+}
+.header-nav li a:hover{
+	color: #339933;
+}
+.icon-nav{
+	position: absolute;
+	bottom: 0;
+	right:30px;
+}
+.icon-nav li{
+	float: left;
+}
+.icon-nav li + li{
+	margin-left: 27px;
+}
+.icon-nav li a{
+	display: inline-block;
+	width: 11px;
+	background: url('../img/sprite-ic.png') no-repeat;
+}
+.icon-nav li a.busket{
+	width: 14px;
+	height: 9px;
+	background-position: 0px -9px;
+}
+.icon-nav li a.busket:hover{
+	background-position: 0px 0px;
+}
+.icon-nav li a.mail{
+	height: 8px;
+	background-position: 0px -46px;
+}
+.icon-nav li a.mail:hover{
+	background-position: 0px -38px;
+}
+.icon-nav li a.home{
+	height: 10px;
+	background-position: 0px -28px;
+}
+.icon-nav li a.home:hover{
+	background-position: 0px -18px;
+}
+.icon-nav li a.search{
+	height: 11px;
+	background-position: 0px -65px;
+}
+.icon-nav li a.search:hover{
+	background-position: 0px -54px;	
+}
+/*HEADER END*/
+/*MAIN START*/
+.main{
+	overflow: hidden;
+}
+.content{
+	width: 530px;
+	float: left;
+	padding-right: 22px;
+	margin-left: 54px;
+	font-size: 10px;
+	line-height: 16px;
+}
+.text+.text{
+	margin-top: 45px;
+}
+.text img{
+    float: left;
+    padding: 6px 35px 23px 0;
+}
+.text h1{
+	color: #339933;
+	margin: 20px 0 17px 0;
+}
+.text p+p{
+	margin-top: 15px;
+}
+.text a{
+	color: #339933;
+	font-weight: bold;
+	font-size: 13px; 
+	margin-top: 10px;
+	float: right;
+}
+
+.sidebar{
+	float: left;
+	min-width:163px;	
+}
+.sidebar > ul:first-child {
+	padding:20px 0 0 25px;
+}
+.sidebar > ul:first-child li+li{
+    margin: 15px 0;
+}
+.sidebar li a{
+    font-weight: bold;	
+}
+.sidebar ul li a{
+	padding-left: 23px;
+	font-size: 11px;
+	background: url('../img/li-bg.png') no-repeat left center;
+}
+.sidebar ul li a:hover{
+	background: url('../img/li-hover.png') no-repeat left center;
+	color:#339933;
+}
+.sidebar .menu li:first-child {
+	margin-top: 71px;
+}
+.sidebar .menu li+li{
+	margin-top:2px;
+}
+.menu{
+	line-height:0;
+	padding: 0;
+}
+.main .menu .scope{
+	height: 100px;
+	width: 140px;
+	display: inline-block;
+	background: url('../img/scope.png') no-repeat left center;
+}
+.main .menu .objective{
+	height: 100px;
+	width: 140px;
+	display: inline-block;
+	background: url('../img/objective.png') no-repeat left center;
+}
+.main .menu .lens{
+	height: 100px;
+	width: 140px;
+	display: inline-block;
+	background: url('../img/lens.png') no-repeat left center;
+}
+/*MEIN END*/
+/*FUTER START*/
+.footer{
+	height: 23px;
+	background: #000;
+	clear: both;	
+}
+.footer span{
+	line-height: 23px;
+	font-size: 11px; 
+	margin-right:23px;
+	color: #fff;
+	float: right;
+}
